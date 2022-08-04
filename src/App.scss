@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#root,
+body,
+html {
+  height: 100%;
+}
+body {
+  background: url(./assets/img/bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  flex-grow: 1;
+  padding-bottom: 50px;
+  color: #fff;
+}
+.app {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  height: 100%;
+}
+.white {
+  background-color: #fff;
+}
+.yellow {
+  background-color: #fdd700;
+}
+.red {
+  background-color: #fd0000;
+}

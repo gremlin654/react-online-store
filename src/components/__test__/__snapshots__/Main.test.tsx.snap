@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main elements should should buttons color 1`] = `
+<button
+  class="color__button red "
+  data-testid="красный"
+>
+  красный
+</button>
+`;
+
+exports[`Main elements should should screen buttons color 1`] = `
+<button
+  class="color__button red "
+  data-testid="красный"
+>
+  красный
+</button>
+`;

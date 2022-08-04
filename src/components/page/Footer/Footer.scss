@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background: #121c1e;
+  margin-top: 100px;
+  padding: 10px 20px;
+}
+.school {
+  &__rs {
+    a {
+      background-image: url(../../../assets/svg/rss.svg);
+      background-size: 61px 23px;
+      display: block;
+      font-size: 0;
+      height: 23px;
+      width: 61px;
+    }
+  }
+  &__date {
+    color: #fff;
+    font-size: large;
+  }
+  &__logo {
+    a {
+      background-image: url(../../../assets/svg/github.svg);
+      background-size: 61px 23px;
+      display: block;
+      font-size: 0;
+      height: 23px;
+      width: 61px;
+    }
+  }
+}
